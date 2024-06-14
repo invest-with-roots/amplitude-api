@@ -6,8 +6,10 @@ require "faraday"
 # AmplitudeAPI
 class AmplitudeAPI
   require_relative "amplitude_api/config"
+  require_relative "amplitude_api/cookie"
   require_relative "amplitude_api/event"
   require_relative "amplitude_api/identification"
+  require_relative "amplitude_api/user"
 
   TRACK_URI_STRING        = "https://api2.amplitude.com/2/httpapi"
   IDENTIFY_URI_STRING     = "https://api2.amplitude.com/identify"
