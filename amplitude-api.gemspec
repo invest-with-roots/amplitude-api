@@ -7,11 +7,11 @@ require "amplitude_api/version"
 Gem::Specification.new do |spec|
   spec.name          = "amplitude-api"
   spec.version       = AmplitudeAPI::VERSION
-  spec.authors       = ["Alex Rakoczy"]
-  spec.email         = ["arakoczy@gmail.com"]
+  spec.authors       = ["Alex Rakoczy", "Randy Etheredge"]
+  spec.email         = ["arakoczy@gmail.com", "randy@rylabs.io"]
   spec.summary       = "Send events to the Amplitude API"
   spec.description   = "Provides an integration for sending events to Amplitude"
-  spec.homepage      = "https://github.com/toothrot/amplitude-api"
+  spec.homepage      = "https://github.com/invest-with-roots/amplitude-api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
