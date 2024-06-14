@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module AmplitudeAPI
   # Defines a user context for evaluation.
   # `device_id` and `user_id` are used for identity resolution.
