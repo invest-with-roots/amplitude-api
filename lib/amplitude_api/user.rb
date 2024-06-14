@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module AmplitudeAPI
+class AmplitudeAPI
   # Defines a user context for evaluation.
   # `device_id` and `user_id` are used for identity resolution.
   # All other predefined fields and user properties are used for

@@ -3,7 +3,7 @@
 require 'base64'
 require 'json'
 
-module AmplitudeAPI
+class AmplitudeAPI
   # This class provides utility functions for parsing and handling identity from Amplitude cookies.
   class AmplitudeCookie
     # Get the cookie name that Amplitude sets for the provided
